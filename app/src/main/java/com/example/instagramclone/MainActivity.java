@@ -157,6 +157,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Error while saving", Toast.LENGTH_SHORT).show();
                 }
                 Log.i(TAG, "Saved successfully");
+                Toast.makeText(MainActivity.this, "Saved successfully", Toast.LENGTH_SHORT).show();
                 etDescription.setText("");
                 ivPostImage.setImageResource(0);
             }
